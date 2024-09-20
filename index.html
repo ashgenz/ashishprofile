@@ -3,139 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Ashish Sharma</title>
+    <title>Ashish Sharma - Portfolio</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
             background-color: #f4f4f4;
         }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
         .container {
-            max-width: 900px;
-            margin: auto;
+            max-width: 1100px;
+            margin: 0 auto;
             padding: 20px;
-            background-color: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
-            color: #333;
+        .about, .skills, .projects, .contact {
+            margin-bottom: 50px;
         }
-        h1 {
-            text-align: center;
-        }
-        .photo {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .photo img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 3px solid #333;
-        }
-        .info {
+        .about {
             display: flex;
+            align-items: center;
             justify-content: space-between;
-            margin-bottom: 30px;
         }
-        .info div {
-            flex: 1;
+        .about img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 4px solid #555;
         }
-        .section {
-            margin-bottom: 20px;
+        .about-info {
+            max-width: 600px;
         }
-        .section h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
+        .about h2 {
+            font-size: 2.2em;
             margin-bottom: 10px;
         }
-        ul {
-            padding-left: 20px;
+        .skills {
+            text-align: center;
         }
-        li {
-            margin-bottom: 5px;
+        .skills h2 {
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+        .skills-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .skills-list li {
+            list-style: none;
+            background-color: #eee;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            font-weight: bold;
+            flex-basis: 22%;
+        }
+        .projects h2 {
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .project-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex-basis: 45%;
+        }
+        .project-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .project-item p {
+            margin-bottom: 10px;
+        }
+        .project-item a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #282c34;
+            color: white;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <div class="photo">
-            <img src="your-photo.jpg" alt="Ashish Sharma Photo">
-        </div>
-
+    <!-- Header Section -->
+    <header>
         <h1>Ashish Sharma</h1>
+        <p>Passionate Developer | AI Enthusiast | Web Designer</p>
+    </header>
 
-        <div class="info">
-            <div>
-                <p>Jaipur, Rajasthan, India</p>
-                <p>+91 7851053521</p>
-                <p><a href="mailto:ashishsharma.cse27@jecrc.ac.in">ashishsharma.cse27@jecrc.ac.in</a></p>
+    <div class="container">
+        <!-- About Section -->
+        <section class="about">
+            <img src="your-photo.jpg" alt="Ashish Sharma">
+            <div class="about-info">
+                <h2>About Me</h2>
+                <p>I'm a driven developer passionate about creating fast, efficient, and visually appealing projects. I specialize in responsive, multi-device web applications using HTML, CSS, and JavaScript. I'm enthusiastic about AI, Machine Learning, and backend development, actively expanding my skills to deliver innovative solutions.</p>
             </div>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2>Summary</h2>
-            <p>Driven developer passionate about designing fast, efficient, and visually appealing projects with good UI. Specializes in creating responsive, multi-device web applications using HTML, CSS, and JavaScript. Enthusiastic about AI, Machine Learning, and cloud technologies. Actively expanding skills in backend development to deliver comprehensive and innovative solutions.</p>
-        </div>
-
-        <div class="section">
+        <!-- Skills Section -->
+        <section class="skills">
             <h2>Technical Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript, Node.Js, Express.Js, Git and Github, REST APIs</li>
-                <li>C Programming, Python Programming, AI and ML Fundamentals</li>
+            <ul class="skills-list">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Node.js & Express.js</li>
+                <li>Python & C Programming</li>
+                <li>AI & ML Fundamentals</li>
+                <li>REST APIs</li>
+                <li>Git & GitHub</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="section">
-            <h2>Education</h2>
-            <p>JECRC Foundation, Bachelors in Technology - Computer Science and Engineering (9.56 CGPA)</p>
-            <p>2023-2027</p>
-        </div>
-
-        <div class="section">
+        <!-- Projects Section -->
+        <section class="projects">
             <h2>Projects</h2>
-            <ul>
-                <li><strong>Job Marketplace</strong> - A web application providing job and hiring services for blue and black collar jobs.
-                    <br>Technologies Used: HTML, CSS, JavaScript, MERN
-                    <br><a href="https://github.com/Ashish987514/Worko.git">Project Link</a></li>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Job Marketplace</h3>
+                    <p>A web application that provides job listings and hiring services for blue and black-collar jobs. Updates are given based on geographic location and user preferences.</p>
+                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, MERN</p>
+                    <a href="https://github.com/Ashish987514/Worko.git">View Project</a>
+                </div>
 
-                <li><strong>Web App for Digital Marketing Company</strong> - A web application that allows users to subscribe for premium Digital Marketing solutions.
-                    <br>Technologies Used: HTML, CSS, JavaScript, MERN
-                    <br><a href="https://github.com/Ashish987514/Zusic.git">Project Link</a></li>
-            </ul>
-        </div>
+                <div class="project-item">
+                    <h3>Web App for Digital Marketing</h3>
+                    <p>This web application allows users to subscribe for premium Digital Marketing solutions, offering customized plans as per their requirements.</p>
+                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, MERN</p>
+                    <a href="https://github.com/Ashish987514/Zusic.git">View Project</a>
+                </div>
+            </div>
+        </section>
 
-        <div class="section">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Introduction to Programming in C - NPTEL</li>
-                <li>AI Fundamentals - IBM Skill Build</li>
-                <li>Mastering The Art of Prompting - IBM Skill Build</li>
-                <li>Python Programming - Great Learning</li>
-                <li>Website Designing (Delta Course) - Apna College</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Achievements</h2>
-            <ul>
-                <li>Research paper titled "Spiking Neural Network" accepted for publication in the Journal of Analysis and Computation (JAC).</li>
-                <li>Elite rating on NPTEL.</li>
-                <li>Won an Intra-college hackathon based on Web3.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Additional Information</h2>
-            <ul>
-                <li>Languages: English (fluent), Hindi (fluent)</li>
-                <li>Soft Skills: Problem-Solving, Time Management, Team Collaboration, Adaptability</li>
-                <li>Interests: Music production, Singing, Badminton, Exploring new technologies</li>
-            </ul>
-        </div>
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:ashishsharma.cse27@jecrc.ac.in">ashishsharma.cse27@jecrc.ac.in</a></p>
+            <p>Phone: +91 7851053521</p>
+            <p>Location: Jaipur, Rajasthan, India</p>
+        </section>
     </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Ashish Sharma. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
