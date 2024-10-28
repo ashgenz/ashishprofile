@@ -21,3 +21,13 @@ function scrollDown() {
         behavior: 'smooth'
     });
 }
+function scrollTray(direction) {
+    const tray = document.querySelector('.tray3');
+    const scrollAmount = 200; // Adjust as needed for scroll distance
+    tray.scrollLeft += direction * scrollAmount;
+}
+function scrollTray(direction) {
+    const tray = document.querySelector('.tray4');
+    const scrollAmount = 200; // Adjust as needed for scroll distance
+    tray.scrollLeft += direction * scrollAmount;
+}
