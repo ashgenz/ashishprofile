@@ -1,183 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashish Sharma - Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            color: #333;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #282c34;
-            color: white;
-            padding: 40px 0;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.5em;
-        }
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .about, .skills, .projects, .contact {
-            margin-bottom: 50px;
-        }
-        .about {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .about img {
-    width: 150px;          /* Set a default width */
-    height: 150px;         /* Ensure height equals width */
-    object-fit: cover;     /* Ensure the image fits the container without stretching */
-    border-radius: 3.125rem;    /* This makes the image a circle */
-    border: 4px solid #555;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worko - I get my work done here :)</title>
+  <link rel="stylesheet" href="style.css">
+  <!--for notification icon-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=notifications" />
+    <!--for profile icon-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
-        }
-        .about-info {
-            max-width: 600px;
-        }
-        .about h2 {
-            font-size: 2.2em;
-            margin-bottom: 10px;
-        }
-        .skills {
-            text-align: center;
-        }
-        .skills h2 {
-            margin-bottom: 20px;
-            font-size: 2.2em;
-        }
-        .skills-list {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .skills-list li {
-            list-style: none;
-            background-color: #eee;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 8px;
-            font-weight: bold;
-            flex-basis: 22%;
-        }
-        .projects h2 {
-            text-align: center;
-            font-size: 2.2em;
-            margin-bottom: 20px;
-        }
-        .project-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .project-item {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            flex-basis: 45%;
-        }
-        .project-item h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-        .project-item p {
-            margin-bottom: 10px;
-        }
-        .project-item a {
-            text-decoration: none;
-            color: #3498db;
-            font-weight: bold;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #282c34;
-            color: white;
-        }
-    </style>
+ 
 </head>
 <body>
+  <!-- <div id="header"> -->
+    <img id="chefimg" src="chef.png" />
+    <div id="headbox"></div>
+    <div id="worko"><p>Worko</p></div>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Ashish Sharma</h1>
-        <p>Passionate Developer | AI Enthusiast | Web Designer</p>
-    </header>
+    <!-- <div id="home">Home</div> -->
+    <img id="cafeworker" src="cafeworker.png" />
+    <img id="capguy" src="cap-guy.png" />
+    <img id="threeguy" src="3-guy.png" />
+    <img id="domestic-clean" src="domestic-clean.png" />
 
-    <div class="container">
-        <!-- About Section -->
-        <section class="about">
-            <img src="photo.jpg" alt="Ashish Sharma">
-            <div class="about-info">
-                <h2>About Me</h2>
-                <p>I'm a driven developer passionate about creating fast, efficient, and visually appealing projects. I specialize in responsive, multi-device web applications using HTML, CSS, and JavaScript. I'm enthusiastic about AI, Machine Learning, and backend development, actively expanding my skills to deliver innovative solutions.</p>
-            </div>
-        </section>
+    <div id="fotterbox"></div>
+    <!-- <div id="Scheduling">Scheduling</div>
+    <div id="Aboutus">About us</div> -->
+    <div id="our-services">Our Services</div>
+<!-- 
+    <p id="complete">Profile</p>
+    <span id="barc">
+        <span id="light"></span>
+    </span>
+    <p id="percentage">20%</p> -->
+    <span id="notificationicon">   
+       <span class="material-symbols-outlined">
+      notifications
+      </span></span>
 
-        <!-- Skills Section -->
-        <section class="skills">
-            <h2>Technical Skills</h2>
-            <ul class="skills-list">
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-                <li>Node.js & Express.js</li>
-                <li>Python & C Programming</li>
-                <li>AI & ML Fundamentals</li>
-                <li>REST APIs</li>
-                <li>Git & GitHub</li>
-            </ul>
-        </section>
-
-        <!-- Projects Section -->
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project-list">
-                <div class="project-item">
-                    <h3>Job Marketplace</h3>
-                    <p>A web application that provides job listings and hiring services for blue and black-collar jobs. Updates are given based on geographic location and user preferences.</p>
-                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, MERN</p>
-                    <a href="https://github.com/Ashish987514/Worko.git">View Project</a>
-                </div>
-
-                <div class="project-item">
-                    <h3>Web App for Digital Marketing</h3>
-                    <p>This web application allows users to subscribe for premium Digital Marketing solutions, offering customized plans as per their requirements.</p>
-                    <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, MERN</p>
-                    <a href="https://github.com/Ashish987514/Zusic.git">View Project</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="contact">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:ashishsharma.cse27@jecrc.ac.in">ashishsharma.cse27@jecrc.ac.in</a></p>
-            <p>Linkedin Profile-<a href="https://www.linkedin.com/in/ashish-sharma-b02619290">Link to my profile</a></p>
-            <p>Phone: +91 7851053521</p>
-            <p>Location: Jaipur, Rajasthan, India</p>
-        </section>
+    <div id="profileicon">
+      <span class="material-symbols-outlined" id="profileicon">account_circle</span>
     </div>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>© 2024 Ashish Sharma. All Rights Reserved.</p>
-    </footer>
+    <!-- <select id="lang">
+      <option>English</option>
+      <option>हिन्दी</option>
+    </select>
+  </div> -->
 
+  <!-- <div id="heading1">Skilled Worker at <br />Your Doorstep</div>
+  <div id="heading2">India's Best <br />Blue collar Jobs<br />Marketplace</div> -->
+  <div id="search">
+    <input id="input1"  />
+    <input id="location" placeholder="Pratap Nagar, Jaipur" />
+    <img id="arrow1" />
+  </div>
+<!--   
+  <div id="book-now">BOOK NOW</div>
+  <div id="icon-container">
+    <img id="icon1" />
+    <img id="icon2" />
+  </div> -->
+  <div id="most-trending">Most trending ones</div>
+
+  <div class="container">
+    <div class="tray">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <!-- Add more cards as needed -->
+    </div>
+    <button class="scroll-button left" onclick="scrollTray(-1)">&#8249;</button>
+    <button class="scroll-button right" onclick="scrollTray(1)">&#8250;</button>
+</div>
+<div id="household-workers">Household workers</div>
+<div class="vertical-container">
+  
+  
+  <div class="vertical-tray" id="scrollContainer">
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <div class="card2"></div>
+      <!-- Add more cards as needed -->
+  </div>
+ 
+</div>
+<div id="local-bussiness-workers">Local bussiness workers</div>
+
+<div class="container3">
+  <div class="tray3">
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <div class="card3"></div>
+      <!-- Add more cards as needed -->
+  </div>
+  <button class="scroll-button left3" onclick="scrollTray(-1)">&#8249;</button>
+  <button class="scroll-button right3" onclick="scrollTray(1)">&#8250;</button>
+</div>
+
+<div id="new-arrivals">New arrivals</div>
+<div class="container4">
+  <div class="tray4">
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <div class="card4"></div>
+      <!-- Add more cards as needed -->
+  </div>
+  <button class="scroll-button left4" onclick="scrollTray(-1)">&#8249;</button>
+  <button class="scroll-button right4" onclick="scrollTray(1)">&#8250;</button>
+</div>
+  <script src="app.js"></script>
 </body>
 </html>
