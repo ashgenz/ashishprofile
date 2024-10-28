@@ -24,10 +24,10 @@ function scrollDown() {
 function scrollTray(direction) {
     const tray = document.querySelector('.tray3');
     const scrollAmount = 200; // Adjust as needed for scroll distance
-    tray.scrollLeft += direction * scrollAmount;
+    tray3.scrollLeft += direction * scrollAmount;
 }
 function scrollTray(direction) {
     const tray = document.querySelector('.tray4');
     const scrollAmount = 200; // Adjust as needed for scroll distance
-    tray.scrollLeft += direction * scrollAmount;
+    tray4.scrollLeft += direction * scrollAmount;
 }
