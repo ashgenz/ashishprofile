@@ -21,12 +21,12 @@ function scrollDown() {
         behavior: 'smooth'
     });
 }
-function scrollTray(direction) {
+function scrollTray3(direction) {
     const tray = document.querySelector('.tray3');
     const scrollAmount = 200; // Adjust as needed for scroll distance
     tray3.scrollLeft += direction * scrollAmount;
 }
-function scrollTray(direction) {
+function scrollTray4(direction) {
     const tray = document.querySelector('.tray4');
     const scrollAmount = 200; // Adjust as needed for scroll distance
     tray4.scrollLeft += direction * scrollAmount;
