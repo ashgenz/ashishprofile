@@ -1,0 +1,842 @@
+
+/* Default styles (mobile-first approach) */
+
+/* Large phones to small tablets */
+@media (min-width: 480px) and (max-width:767px) {
+  
+div{
+    font-family: 'Arial', sans-serif;
+}
+#barc{
+    width:calc(16% + 2px);
+    height: 8px;
+    background-color: #3a3a3a;
+    border-radius:10px ;
+    position: absolute;
+    z-index: +1;
+    top: 30px;
+    right: 200px;
+
+}
+#complete{
+    font-size: 13px;
+    color: rgb(175, 175, 175);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    z-index: +2;
+    top: -3px;
+    right: 358px;
+}
+#light{
+    width:calc(10% + 20px);
+    height: 8px;
+    background-color: #8956ff;
+    border-radius:10px ;
+    position: absolute;
+    z-index: +1;
+    top: 0px;
+    right:calc(15em - 20%);
+}
+#percentage{
+    font-size: 13px;
+    color: rgb(225, 225, 225);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: -1px;
+    right: 200px;
+    z-index: +1;
+}
+#lang{
+    font-size: 17px; 
+    width:calc(22px + 7.3%);
+    height: 26px;
+     border-radius: 5px; 
+     color: azure;
+      background-color: black;
+      position: absolute;
+      right: 70px; top: 13px; z-index: +1;
+}
+#lang:hover{
+    scale: 1.02;
+    background-color: rgb(28, 28, 28);
+}
+#profileicon:hover{
+    color: rgb(255, 255, 255,0.91);
+}
+#input1::placeholder{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+#header {
+    position: relative;
+}
+
+#chefimg {
+    width: 280px;
+    height: 283px;
+    left: -33px;
+    top: 169px;
+    position: absolute;
+}
+
+#headbox {
+    width: 1686px;
+    height: 54px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: black;
+}
+
+#worko {
+    font-family: 'Open Sans', sans-serif;
+    width: 300px;
+    height: 34px;
+    left: 35px;
+    top: calc(155px - (60 * (137vw / 1000)));
+    position: absolute;
+    color: white;
+    font-size: calc(170px - (65 * (130vw / 1000)));
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+#home, #Scheduling, #Aboutus {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#home {
+    left: calc(40% + 30px);
+    top: 21px;
+}
+
+#Scheduling {
+    left: calc(45% + 30px);
+    top: 21px;
+}
+
+#Aboutus {
+    left: calc(54% + 30px);
+    top: 21px;
+}
+
+#cafeworker, #capguy, #3guy {
+    width: calc(12% + 120px);
+    height: auto;
+    position: absolute;
+}
+
+#cafeworker {
+    left: calc(2% + 80px);
+    top: 319px;
+}
+
+#capguy {
+    left: calc(58% + 320px);
+    top: 130px;
+}
+
+#3guy {
+    width: calc(4.86% + 99px);
+    left: calc(58% + 320px);
+    top: 450px;
+}
+
+#fotterbox {
+    width: 1440px;
+    height: 717px;
+    left: 0;
+    top: 3341px;
+    position: absolute;
+    background: black;
+}
+
+#our-services {
+    left: 28px;
+    top: 678px;
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+#complete {
+    position: relative;
+}
+
+#profileicon {
+    color: rgb(255, 255, 255, 0.7);
+    top: 34px;
+    left: calc(1000px + 20vw);
+    position: absolute;
+}
+
+#heading1 {
+    width: 419px;
+    height: 122px;
+    left: 480px;
+    top: 118px;
+    position: absolute;
+    color: black;
+    font-size: 45px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+#heading2 {
+    width: 342px;
+    height: 98px;
+    left:480px;
+    top: 240px;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+#search {
+    width: 755px;
+    height: 53px;
+    left: 480px;
+    top: 346px;
+    position: absolute;
+}
+
+#input1, #location {
+    border: 0;
+    height: 53px;
+    background: #DCDCDC;
+    border-radius: 145px;
+}
+
+#input1 {
+    font-size: 19px;
+    padding-left: 35px;
+    width: 719.05px;
+}
+
+#location {
+    font-size: 17px;
+    padding-left: 22px;
+    width: 200.04px;
+    height: 35px;
+    background: #E9E9E9;
+    border-radius: 15px;
+    position: absolute;
+    left: 505.44px;
+    top: 9px;
+}
+
+#book-now {
+    left: 659px;
+    top: 608px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+#icon-container {
+    width: 33px;
+    height: 43px;
+    left: 697px;
+    top: 635px;
+    position: absolute;
+}
+
+#icon1, #icon2 {
+    width: 26.46px;
+    height: 33px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+}
+
+#icon2 {
+    width: 23.15px;
+    height: 27.08px;
+    left: 29.62px;
+    top: 19.85px;
+}
+  }
+  
+  /* Tablets and smaller laand (max-width:767px)ptops */
+  @media (min-width: 768px)and (max-width:834px) {
+    /* Styles for landscape tablets */
+  }
+  
+  /* Desktops */
+  @media (min-width: 835px)and (max-width:1024px) {
+
+  }
+  
+  /* Large desktops and monitors */
+  @media (min-width: 1025px)and (max-width:1440px) {
+    /* Styles for extra-large screens */
+  }
+  @media (min-width: 1440px) {
+  }
+
+
+  #headbox {
+    width: 100%;
+    height: 15vw;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: black;
+}
+
+#worko {
+    font-family: 'Open Sans', sans-serif;
+    top: -1.3vw;
+    margin-left: 2vw;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 6vw;
+    font-weight: 700;
+    word-wrap: break-word;
+    }
+#profileicon {
+        color: rgb(255, 255, 255, 0.5);
+        top: 2vw;
+        left: 90%;
+        position: absolute;
+        font-size: 7.5vw;
+    }
+#notificationicon{
+    color: rgb(255, 255, 255, 0.6);
+    top: 4.8vw;
+    left: 80%;
+    position: absolute;
+    font-size: 5vw;
+}
+
+#search {
+    width: 80vw;
+    height: 1vw;
+    left: 8.8vw;
+    top: 27vw;
+    position: absolute;
+    }
+    
+    #input1, #location {
+    border: 0;
+    height: 9.8vw;
+    background: #DCDCDC;
+    border-radius: 145px;
+    }
+    
+    #input1 {
+    font-size: 4vw;
+    padding-left: 10vw;
+    width: 73vw;
+    }
+    
+    #location {
+    font-size: 3vw;
+    padding-left:1vw;
+    width: 30vw;
+    height: 6vw;
+    background: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    left: 50vw;
+    top: 1.7vw;
+    }
+    #our-services {
+        left: 3vw;
+        top:57vw;
+        position: absolute;
+        color: black;
+        font-size: 4.5vw;
+        font-family: 'Arial', sans-serif;
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+#chefimg {
+width: 13vw;
+height: auto;
+left: 87vw;
+top: 15vw;
+position: absolute;
+}
+#cafeworker {
+        width: 15vw;
+        height: auto;
+    left:-1vw;
+    top: 14vw;
+    position: absolute;
+    }
+    
+    #capguy {
+        width: 15vw;
+        height: auto;
+    left: 4vw;
+    top: 39vw;
+    position: absolute;
+    }
+    
+    #threeguy {
+        position: absolute;
+    width: 13vw;
+    height: auto;
+    left: 85vw;
+    top: 43vw;
+    }
+    
+
+#domestic-clean{
+    width: 26vw;
+    height: auto;
+    left: 55vw;
+    position: absolute;
+    top: 42vw;
+}
+#most-trending{
+    left: 6vw;
+    top:65vw;
+    position: absolute;
+    color: rgb(0, 0, 0,.7);
+    font-size: 4vw;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}    
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+
+    position: absolute;
+    top: 70vw;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.tray {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+}
+
+.card {
+    min-width: 120px;
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 0 10px;
+    flex: 0 0 auto;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-button.left {
+    left: 10px;
+}
+
+.scroll-button.right {
+    right: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.vertical-container {
+    width: 100%;
+    height: 67vw;
+    position: absolute;
+    top: 147vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.vertical-tray {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 350px;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #a3a3ff transparent;
+}
+
+.vertical-tray::-webkit-scrollbar {
+    width: 5px;
+}
+
+.vertical-tray::-webkit-scrollbar-thumb {
+    background-color: #a3a3ff;
+    border-radius: 10px;
+}
+
+.card2 {
+    width: 160px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.scroll-button2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px 0;
+}
+#household-workers{
+    left: 6vw;
+    top:140vw;
+    position: absolute;
+    color: rgb(0, 0, 0,.7);
+    font-size: 4vw;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.container3 {
+
+    position: absolute;
+    top: 240vw;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.tray3 {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+}
+
+.card3 {
+    min-width: 120px;
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 0 10px;
+    flex: 0 0 auto;
+}
+
+.scroll-button3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-button.left3 {
+    left: 10px;
+}
+
+.scroll-button.right3 {
+    right: 10px;
+}
+#local-bussiness-workers{
+    left: 6vw;
+    top:235vw;
+    position: absolute;
+    color: rgb(0, 0, 0,.7);
+    font-size: 4vw;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.container4 {
+
+    position: absolute;
+    top: 320vw;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.tray4 {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+}
+
+.card4 {
+    min-width: 160px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 0 10px;
+    flex: 0 0 auto;
+}
+
+.scroll-button4 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-button.left4 {
+    left: 10px;
+}
+
+.scroll-button.right4 {
+    right: 10px;
+}
+#new-arrivals{
+    left: 6vw;
+    top:315vw;
+    position: absolute;
+    color: rgb(0, 0, 0,.7);
+    font-size: 4vw;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+#fotterbox {
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 520vw;
+    position: absolute;
+    background: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+font-family: 'Arial', sans-serif;
+}
+#barc{
+width:calc(16% + 2px);
+height: 8px;
+background-color: #3a3a3a;
+border-radius:10px ;
+position: absolute;
+z-index: +1;
+top: 30px;
+right: 200px;
+
+}
+#complete{
+font-size: 13px;
+color: rgb(175, 175, 175);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+position: absolute;
+z-index: +2;
+top: -3px;
+right: 358px;
+}
+#light{
+width:calc(10% + 20px);
+height: 8px;
+background-color: #8956ff;
+border-radius:10px ;
+position: absolute;
+z-index: +1;
+top: 0px;
+right:calc(15em - 20%);
+}
+#percentage{
+font-size: 13px;
+color: rgb(225, 225, 225);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: absolute;
+top: -1px;
+right: 200px;
+z-index: +1;
+}
+#lang{
+font-size: 17px; 
+width:calc(22px + 7.3%);
+height: 26px;
+ border-radius: 5px; 
+ color: azure;
+  background-color: black;
+  position: absolute;
+  right: 70px; top: 13px; z-index: +1;
+}
+#lang:hover{
+scale: 1.02;
+background-color: rgb(28, 28, 28);
+}
+#profileicon:hover{
+color: rgb(255, 255, 255,0.91);
+}
+#input1::placeholder{
+color: rgba(0, 0, 0, 0.3);
+}
+
+
+#header {
+position: relative;
+}
+
+
+
+
+
+#home, #Scheduling, #Aboutus {
+position: absolute;
+color: white;
+font-size: 15px;
+font-family: 'Arial', sans-serif;
+font-weight: 400;
+word-wrap: break-word;
+}
+
+#home {
+left: calc(40% + 30px);
+top: 21px;
+}
+
+#Scheduling {
+left: calc(45% + 30px);
+top: 21px;
+}
+
+#Aboutus {
+left: calc(54% + 30px);
+top: 21px;
+}
+
+
+
+#complete {
+position: relative;
+}
+
+
+
+#heading1 {
+width: 419px;
+height: 122px;
+left: 480px;
+top: 118px;
+position: absolute;
+color: black;
+font-size: 45px;
+font-family: 'Arial', sans-serif;
+font-weight: 700;
+word-wrap: break-word;
+}
+
+#heading2 {
+width: 342px;
+height: 98px;
+left:480px;
+top: 240px;
+position: absolute;
+color: black;
+font-size: 22px;
+font-family: 'Arial', sans-serif;
+font-weight: 300;
+word-wrap: break-word;
+}
+
+
+#book-now {
+left: 659px;
+top: 608px;
+position: absolute;
+color: rgb(0, 0, 0);
+font-size: 22px;
+font-family: 'Arial', sans-serif;
+font-weight: 300;
+word-wrap: break-word;
+}
+
+#icon-container {
+width: 33px;
+height: 43px;
+left: 697px;
+top: 635px;
+position: absolute;
+}
+
+#icon1, #icon2 {
+width: 26.46px;
+height: 33px;
+position: absolute;
+transform: rotate(90deg);
+transform-origin: 0 0;
+}
+
+#icon2 {
+width: 23.15px;
+height: 27.08px;
+left: 29.62px;
+top: 19.85px;
+} 
