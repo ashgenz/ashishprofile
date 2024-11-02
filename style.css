@@ -1,3 +1,4 @@
+@media (max-width:499px){
 
   #headbox {
     width: 100%;
@@ -526,6 +527,7 @@ height: 27.08px;
 left: 29.62px;
 top: 19.85px;
 } 
+}
 @media (min-width: 500px) {
     #headbox{
         height: 3.5vw;
