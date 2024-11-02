@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Worko - I get my work done here :)</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
   <!--for notification icon-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=notifications" />
     <!--for profile icon-->
@@ -12,17 +12,21 @@
 
  
 </head>
-<body>
+<body >
   <!-- <div id="header"> -->
-    <img id="chefimg" src="/chef.png" />
-    <div id="headbox"></div>
-    <div id="worko"><p>Worko</p></div>
+    <img id="chefimg" src="chef.png" />
+    <div id="headbox">
+      <div id="worko"><p>Worko</p></div>
+      <div id="profileicon">
+        <span class="material-symbols-outlined" id="profileicon">account_circle</span>
+      </div>
+    </div>
 
     <!-- <div id="home">Home</div> -->
-    <img id="cafeworker" src="/cafeworker.png" />
-    <img id="capguy" src="/cap-guy.png" />
-    <img id="threeguy" src="/3-guy.png" />
-    <img id="domestic-clean" src="/domestic-clean.png" />
+    <img id="cafeworker" src="cafeworker.png" />
+    <img id="capguy" src="cap-guy.png" />
+    <img id="threeguy" src="3-guy.png" />
+    <img id="domestic-clean" src="domestic-clean.png" />
 
     <div id="fotterbox"></div>
     <!-- <div id="Scheduling">Scheduling</div>
@@ -39,9 +43,7 @@
       notifications
       </span></span>
 
-    <div id="profileicon">
-      <span class="material-symbols-outlined" id="profileicon">account_circle</span>
-    </div>
+
 
     <!-- <select id="lang">
       <option>English</option>
@@ -49,8 +51,8 @@
     </select>
   </div> -->
 
-  <!-- <div id="heading1">Skilled Worker at <br />Your Doorstep</div>
-  <div id="heading2">India's Best <br />Blue collar Jobs<br />Marketplace</div> -->
+  <div id="heading1">Skilled Worker at <br />Your Doorstep</div>
+  <div id="heading2">India's Best <br />Blue collar Jobs<br />Marketplace</div>
   <div id="search">
     <input id="input1"  />
     <input id="location" placeholder="Pratap Nagar, Jaipur" />
@@ -66,7 +68,7 @@
 
   <div class="container">
     <div class="tray">
-        <div class="card"></div>
+        <div class="card" style="margin-left: 2vw;"></div>
         <div class="card"></div>
         <div class="card"></div>
         <div class="card"></div>
@@ -108,7 +110,7 @@
 
 <div class="container3">
   <div class="tray3">
-      <div class="card3"></div>
+      <div class="card3"  style="margin-left: 2vw;"></div>
       <div class="card3"></div>
       <div class="card3"></div>
       <div class="card3"></div>
@@ -129,7 +131,7 @@
 <div id="new-arrivals">New arrivals</div>
 <div class="container4">
   <div class="tray4">
-      <div class="card4"></div>
+      <div class="card4" style="margin-left: 2vw;"></div>
       <div class="card4"></div>
       <div class="card4"></div>
       <div class="card4"></div>
@@ -146,6 +148,6 @@
   <button class="scroll-button left4" onclick="scrollTray4(-1)">&#8249;</button>
   <button class="scroll-button right4" onclick="scrollTray4(1)">&#8250;</button>
 </div>
-  <script src="/app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
