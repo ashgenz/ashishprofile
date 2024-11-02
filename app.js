@@ -22,12 +22,12 @@ function scrollDown() {
     });
 }
 function scrollTray3(direction) {
-    const tray = document.querySelector('.tray3');
+    const tray3 = document.querySelector('.tray3');
     const scrollAmount = 200; // Adjust as needed for scroll distance
     tray3.scrollLeft += direction * scrollAmount;
 }
 function scrollTray4(direction) {
-    const tray = document.querySelector('.tray4');
+    const tray4 = document.querySelector('.tray4');
     const scrollAmount = 200; // Adjust as needed for scroll distance
     tray4.scrollLeft += direction * scrollAmount;
 }
