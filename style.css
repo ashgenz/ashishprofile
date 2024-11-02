@@ -584,8 +584,10 @@ top: 19.85px;
         left: calc(50% - 22vw);
     }
     #input1{
+        padding-left: 3vw;
+        font-size: 1vw;
         height: 3vw;
-        width: 45% ;
+        width: 50% ;
     }
     #location{
         font-size: 1vw;
@@ -593,7 +595,7 @@ top: 19.85px;
         border-radius: 5vw;
         width: 10vw;
         top: 0.3vw;
-        left: 34.7vw;
+        left: 31.7vw;
     }
 #our-services{
     font-size: 2vw;
