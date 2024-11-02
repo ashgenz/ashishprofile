@@ -1,3 +1,176 @@
+
+@media (min-width: 500px) {
+    #headbox{
+        height: 3.5vw;
+        display: flex;
+        
+    }
+    #worko{
+        font-size: 1.6vw;
+        top: -0.6vw;
+        margin-left: 1vw;
+
+    }
+    #profileicon{
+        top: 0.47vw;
+        font-size: 1.7vw ;
+        right: 1.8vw;
+    }
+    #notificationicon{
+        top: 1.1vw;
+        left: 95%;
+        font-size: 1vw;
+    }
+    #heading1{
+        display: block;
+    }
+    #heading2{
+        display: block;
+    }
+    #heading1 {
+        width: 419px;
+        height: 122px;
+        left: 27.7vw;
+        top: 7vw;
+        position: absolute;
+        color: black;
+        font-size: 2.7vw;
+        font-family: 'Arial', sans-serif;
+        font-weight: 700;
+        word-wrap: break-word;
+        }
+        
+        #heading2 {
+        width: 342px;
+        height: 98px;
+        left:28vw;
+        top: 14.2vw;
+        position: absolute;
+        color: black;
+        font-size: 1.28vw;
+        font-family: 'Arial', sans-serif;
+        font-weight: 300;
+        word-wrap: break-word;
+        }
+    #search{
+        top: 20vw;
+        left: calc(50% - 22vw);
+    }
+    #input1{
+        height: 3vw;
+        width: 45% ;
+    }
+    #location{
+        font-size: 1vw;
+        height: 2.3vw;
+        border-radius: 5vw;
+        width: 10vw;
+        top: 0.3vw;
+        left: 34.7vw;
+    }
+#our-services{
+    font-size: 2vw;
+    top: 38vw;
+    left: 3vw ;
+}
+#chefimg{
+    width: 14vw;
+    left: 2.5vw;
+    top: 8vw;
+}
+#cafeworker{
+    width: 15vw;
+    left:10vw ;
+    top: 19vw;
+}
+#capguy{
+    top:9.5vw ;
+    left:81% ;
+}
+#domestic-clean{
+    width: 12vw;
+    top: 6vw;
+    left: 68%;
+}
+#threeguy{
+    width: 10vw;
+    top: 26vw;
+    left: 73%;
+
+}
+#most-trending{
+    margin-top: 16px;
+    font-size: 1.5vw;
+    top: 42vw;
+    left: 3vw;
+}
+.container {
+    margin-top: 16px;
+    top: 46vw;
+    width: 100%;
+}
+.card{
+    min-width: 12vw;
+    height: 18vw;
+}
+.vertical-container {
+    margin-top: 16px;
+    top: 80vw;
+    left: 1vw;
+    
+}
+.vertical-tray {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    max-height: 30vw;
+}
+.card2{
+    width:27vw;
+    height: 14vw;
+}
+#household-workers{
+    margin-top: 16px;
+    top: 73vw;
+    left: 3.2vw;
+    font-size: 1.6vw;
+}
+.container3 {
+    margin-top: 16px;
+    top: 122vw;
+    width: 100%;
+}
+.card3{
+    min-width: 12vw;
+    height: 18vw;
+}
+#local-bussiness-workers{
+    margin-top: 16px;
+    font-size: 1.5vw;
+    top: 118vw;
+    left: 3vw;
+}
+#new-arrivals{
+    margin-top: 16px;
+    font-size: 1.5vw;
+    top: 149vw;
+    left: 3vw;
+}
+.container4 {
+    margin-top: 16px;
+    top: 154vw;
+    width: 100%;
+}
+.card4{
+    min-width: 430px;
+    height: 150px;
+}
+#fotterbox{
+    margin-top: 300px;
+    top:200vw ;
+}
+}
+
+
 @media (max-width:499px){
 
   #headbox {
@@ -527,174 +700,4 @@ height: 27.08px;
 left: 29.62px;
 top: 19.85px;
 } 
-}
-@media (min-width: 500px) {
-    #headbox{
-        height: 3.5vw;
-        display: flex;
-        
-    }
-    #worko{
-        font-size: 1.6vw;
-        top: -0.6vw;
-        margin-left: 1vw;
-
-    }
-    #profileicon{
-        top: 0.47vw;
-        font-size: 1.7vw ;
-        right: 1.8vw;
-    }
-    #notificationicon{
-        top: 1.1vw;
-        left: 95%;
-        font-size: 1vw;
-    }
-    #heading1{
-        display: block;
-    }
-    #heading2{
-        display: block;
-    }
-    #heading1 {
-        width: 419px;
-        height: 122px;
-        left: 27.7vw;
-        top: 7vw;
-        position: absolute;
-        color: black;
-        font-size: 2.7vw;
-        font-family: 'Arial', sans-serif;
-        font-weight: 700;
-        word-wrap: break-word;
-        }
-        
-        #heading2 {
-        width: 342px;
-        height: 98px;
-        left:28vw;
-        top: 14.2vw;
-        position: absolute;
-        color: black;
-        font-size: 1.28vw;
-        font-family: 'Arial', sans-serif;
-        font-weight: 300;
-        word-wrap: break-word;
-        }
-    #search{
-        top: 20vw;
-        left: calc(50% - 22vw);
-    }
-    #input1{
-        height: 3vw;
-        width: 45% ;
-    }
-    #location{
-        font-size: 1vw;
-        height: 2.3vw;
-        border-radius: 5vw;
-        width: 10vw;
-        top: 0.3vw;
-        left: 34.7vw;
-    }
-#our-services{
-    font-size: 2vw;
-    top: 38vw;
-    left: 3vw ;
-}
-#chefimg{
-    width: 14vw;
-    left: 2.5vw;
-    top: 8vw;
-}
-#cafeworker{
-    width: 15vw;
-    left:10vw ;
-    top: 19vw;
-}
-#capguy{
-    top:9.5vw ;
-    left:81% ;
-}
-#domestic-clean{
-    width: 12vw;
-    top: 6vw;
-    left: 68%;
-}
-#threeguy{
-    width: 10vw;
-    top: 26vw;
-    left: 73%;
-
-}
-#most-trending{
-    margin-top: 16px;
-    font-size: 1.5vw;
-    top: 42vw;
-    left: 3vw;
-}
-.container {
-    margin-top: 16px;
-    top: 46vw;
-    width: 100%;
-}
-.card{
-    min-width: 12vw;
-    height: 18vw;
-}
-.vertical-container {
-    margin-top: 16px;
-    top: 80vw;
-    left: 1vw;
-    
-}
-.vertical-tray {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2vw;
-    max-height: 30vw;
-}
-.card2{
-    width:27vw;
-    height: 14vw;
-}
-#household-workers{
-    margin-top: 16px;
-    top: 73vw;
-    left: 3.2vw;
-    font-size: 1.6vw;
-}
-.container3 {
-    margin-top: 16px;
-    top: 122vw;
-    width: 100%;
-}
-.card3{
-    min-width: 12vw;
-    height: 18vw;
-}
-#local-bussiness-workers{
-    margin-top: 16px;
-    font-size: 1.5vw;
-    top: 118vw;
-    left: 3vw;
-}
-#new-arrivals{
-    margin-top: 16px;
-    font-size: 1.5vw;
-    top: 149vw;
-    left: 3vw;
-}
-.container4 {
-    margin-top: 16px;
-    top: 154vw;
-    width: 100%;
-}
-.card4{
-    min-width: 430px;
-    height: 150px;
-}
-#fotterbox{
-    margin-top: 300px;
-    top:200vw ;
-}
 }
