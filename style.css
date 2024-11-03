@@ -1,3 +1,14 @@
+#user{
+    color: #8956ff;
+    font-size: 4.5vw;
+    position: absolute;
+    top: 5.6vw;
+    left: 68vw;
+    text-decoration: none;
+}
+.completion{
+    display: none;
+}
 
   #headbox {
     width: 100%;
@@ -417,7 +428,7 @@ border-radius:10px ;
 position: absolute;
 z-index: +1;
 top: 0px;
-right:calc(15em - 20%);
+
 }
 #percentage{
 font-size: 13px;
@@ -696,5 +707,18 @@ top: 19.85px;
 #fotterbox{
     margin-top: 300px;
     top:200vw ;
+}
+.completion{
+    display: block;
+    
+}
+#light{
+    left: 0vw;
+}
+
+#user{
+    font-size: 1vw;
+    top: 1.2vw;
+    left: 90vw;
 }
 }
