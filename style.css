@@ -2,8 +2,16 @@
     color: #8956ff;
     font-size: 4.5vw;
     position: absolute;
-    top: 5.6vw;
-    left: 68vw;
+    top: 5.4vw;
+    left: 54vw;
+    text-decoration: none;
+}
+#w-user{
+    color: #8956ff;
+    font-size: 4.5vw;
+    position: absolute;
+    top: 5.4vw;
+    left: 65vw;
     text-decoration: none;
 }
 .completion{
@@ -719,6 +727,11 @@ top: 19.85px;
 #user{
     font-size: 1vw;
     top: 1.2vw;
-    left: 90vw;
+    left: 88vw;
+}
+#w-user{
+    font-size: 1vw;
+    top: 1.2vw;
+    left: 90.5vw;
 }
 }
